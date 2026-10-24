@@ -41,7 +41,7 @@ _Great job adding a code example to the file :partying_face:_
 
 ### :keyboard: Activity: Add a task list
 
-GitHub Actions went ahead and made a branch for you. So you'll need to add to the file we've created in the branch, and we will check your work as you work through this course!
+The former hosted course bots are archived. Work on your local learner branch and use `.ci/local.sh` to check your Markdown; course progress changes are manual.
 
 1. Return to your pull request.
 1. Use Markdown to create a task list. Here is an example:
@@ -56,7 +56,7 @@ GitHub Actions went ahead and made a branch for you. So you'll need to add to th
 
 1. Use the **Preview** tab to check your Markdown formatting.
 1. Commit the changes to the file.
-1. Wait about 20 seconds then refresh this page (the one you're following instructions from). [GitHub Actions](https://docs.github.com/en/actions) will automatically update to the next step.
+1. Run `bash .ci/local.sh --step 4 --file /path/to/your/index.md` locally. It checks the original task-list predicate without editing course state or using GitHub Actions. Update your course progress manually after it passes.
 
 <footer>
 
